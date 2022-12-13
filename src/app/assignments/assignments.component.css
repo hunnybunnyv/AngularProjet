@@ -1,0 +1,30 @@
+.rendu {
+    color: green;
+}
+
+.nonRendu {
+    color: red;
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+}
+
+mat-list-item {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ajouterBtn {
+    align-self: flex-end;
+}
+
+.supprimerBtn {
+    align-self: flex-end;
+}

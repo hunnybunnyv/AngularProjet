@@ -1,0 +1,13 @@
+.form {
+    display:flex;
+    flex-direction: column;
+}
+
+.form-item {
+    width: 100vw;
+}
+
+.form-item-wrapper {
+    margin-top: 15px;
+}
+
