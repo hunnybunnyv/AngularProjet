@@ -10,9 +10,8 @@ import { Assignment } from '../assignment.model';
 export class AssignmentDetailComponent implements OnInit {
   // assignementSelectionne:Assignment;
   @Input() assignmentTransmis!: Assignment;
-  assignmentsService!: AssignmentsService;
 
-  constructor() { }
+  constructor(private assignmentsService : AssignmentsService) { }
 
   ngOnInit(): void {
   }
